@@ -3,7 +3,7 @@ import discord.ext.commands
 from discord.ext.commands import Bot
 import test
 
-Client = Bot('pyth$')
+Client = Bot('py-')
 commands = discord.ext.commands
 
 
