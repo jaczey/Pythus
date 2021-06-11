@@ -129,8 +129,8 @@ async def online(ctx, username: str):
         )
         await ctx.send(embed=embed)
         await ctx.send("Please donate so i can keep this bot running"
-                       "/n Paypal = https://paypal.me/danielsynf"
-                       "/n Bitcoin = 32bC3pD4mgXZriGoLFbtE3KNQZj6GjXrtj")
+                       "\n Paypal = https://paypal.me/danielsynf"
+                       "\n Bitcoin = 32bC3pD4mgXZriGoLFbtE3KNQZj6GjXrtj")
         return
 
 
