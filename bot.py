@@ -140,16 +140,16 @@ async def purge_error(ctx, error):
     if isinstance(error, commands.MissingPermissions):
         await ctx.send(":negative_squared_cross_mark: You can't use that command.")
     if isinstance(error, commands.MissingRequiredArgument):
-        await ctx.send(":negative_squared_cross_mark: **Missing required argument(s).** `!purge <amount>`")
+        await ctx.send(":negative_squared_cross_mark: **Missing required argument(s).** `py-purge <amount>`")
 
 @bedwars.error
 async def online_error(ctx, error):
     if isinstance(error, commands.MissingRequiredArgument):
-        await ctx.send(":negative_squared_cross_mark: **Missing required argument(s).** `!bw <username>`")
+        await ctx.send(":negative_squared_cross_mark: **Missing required argument(s).** `py-bw <username>`")
 @online.error
 async def online_error(ctx, error):
     if isinstance(error, commands.MissingRequiredArgument):
-        await ctx.send(":negative_squared_cross_mark: **Missing required argument(s).** `!online <username>`")
+        await ctx.send(":negative_squared_cross_mark: **Missing required argument(s).** `py-online <username>`")
 
 
 Client.run("ODUwMjIxNjU4MjYxNTUzMTY0.YLmknw.WjtTjaeJXR3XCTaw9ghvu5xNwkU")
