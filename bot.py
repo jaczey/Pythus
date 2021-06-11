@@ -13,7 +13,7 @@ async def on_guild_join(guild):
         if channel.permissions_for(guild.me).send_messages:
             await channel.send('If yall could just subscribe to **Technoblade**: https://www.youtube.com/c/technoblade'
                                '`\nFree Minecraft accounts, Hypixel ranks and lunar/badlion cosmetics '
-                               '-->`https://rollrewards.com')
+                               '\n-->https://rollrewards.com')
         break
 
 
